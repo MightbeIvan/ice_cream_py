@@ -77,9 +77,8 @@ picked_flavors = random.sample(list(flavorsList.values()), k=7)
 
 def clear_Terminal():
     if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
+        os.system('cls // clear')
+
 
 def beginning():
     penup()
